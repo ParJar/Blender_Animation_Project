@@ -1,0 +1,9 @@
+The new modifiers used in this project was the use of the mirror, edge split and simple deform modifiers. The 
+edge split modifier was used to smooth the surface of the car appropriately after applying smooth shading. The mirror
+modifier helped create the tunnel and car as only half of the objects would need to be modelled. The simple deform modifier
+was used to bend the tunnel and all objects within it.
+Furthermore, smoke domains were used with particle emitters to use as exhaust smoke. This also allowed for the particle
+effects to be baked into the blender project. Some materials also included shaders which used mix shaders, textures and
+colour ramp nodes to enhance the final material.
+To make animating the car easier, drivers were used to link rotation of the wheels to an empty which was paired with the
+vehicle. Markers were required in animation to allow for camera switching and multiple scenes. 
